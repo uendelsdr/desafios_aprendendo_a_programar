@@ -49,25 +49,31 @@ p {
   flex-wrap: wrap;
   position: relative;
   gap: 50px;
-  margin-left: 150px;
+  margin-left: 80px;
   margin-top: 50px;
 }
 img {
   background-size: cover;
   object-fit: cover;
+  cursor: pointer;
 }
 .img-1 {
   display: block;
   background-repeat: no-repeat;
 }
-.img-2 {
+
+.img-absolute {
   position: absolute;
 }
-.img-4 {
-  position: absolute;
+.m-l1 {
   margin-left: 270px;
 }
-.img-5 {
-  position: absolute;
+.m-l2 {
   margin-left: 540px;
+}
+.m-l3 {
+  margin-left: 815px;
+}
+.m-l4 {
+  margin-left: 1085px;
 }
